@@ -1,0 +1,147 @@
+/* RESET */
+html, body, address, footer, blockquote, dl, pre,  button, del, ins, map, object, abbr, acronym, b, bdo, big, cite, code, dfn, i, kbd, q, samp, small, sub, sup, tt, var, legend, fieldset  { font-family: 'Open Sans', sans-serif; color:#444; line-height:1.8; font-weight : 400; font-size:100%; margin:0; padding:0; -webkit-font-smoothing: antialiased;  height: 100%; }
+
+a {color:#4fbfd7; text-decoration:none; cursor:pointer; transition:all .1s ease-in-out; }
+a:hover {text-decoration:none; color:#ed1c24 }
+a:visited, a:focus {text-decoration:none; outline:0 none; }
+a img {border:0 none; } /* IE */
+
+h1 {margin:0; font-size: 230%; font-weight: 300; }
+h2 {margin:0; font-size: 170%; font-weight: 300; }
+h3 {margin:0; font-size: 130%; font-weight: 300; }
+h4 {margin:0; font-size: 110%; font-weight: 300; }
+
+/* HEADER
+---------------------------------- */
+header section {width: 90%; margin:100px auto 40px auto; text-align: center; padding-bottom: 80px; }
+header section h1 {font-weight: 600; text-transform: uppercase; font-size: 200%; color:#444;  }
+header section h1 span {font-size: 54%; font-weight: 300; display: block; }
+header section img {max-width: 115px; height: auto; box-shadow: -3px 3px 0 rgba(0,0,0,.2); 
+	
+	-webkit-border-radius: 115px;
+	   -moz-border-radius: 115px;
+	        border-radius: 115px;
+	
+}
+
+/* Nav */
+header .icon-menu { color:#e14c3b; position:absolute; top:20px; left:24px; font-size: 175%; z-index: 888;  height: inherit; }
+header .icon-menu:hover {cursor: pointer; }
+header nav { display:none; width: 50%; z-index: 888; position: absolute; top:23px; left:70px;  }
+header nav ul {margin:0; padding:0; }
+header nav li {margin:0; padding:0 15px; list-style-type: none; display:inline-block; *display: inline;}
+header nav li a i {font-size:150%; color:#555; transition:all .2s ease-in-out; } 
+header nav li a i:hover {color:#e14c3b; }
+header article {max-width: 655px; margin:0 auto; text-align: left; }
+
+/* CONTAINERS
+---------------------------------- */
+.wrapper {position:relative; min-height: 100%;  }
+
+/* INTRO
+---------------------------------- */
+.intro {text-align: center; margin: 10% auto 150px auto;  width: 90%;  }
+.intro h1 {font-size: 180%; font-weight: 400; }
+
+/* PORTFOLIO
+---------------------------------- */
+.portfolio {display: block; }
+.portfolio figure  {width:50%; position: relative; display: inline-block; *display: inline; zoom:1; margin:-10px -4px 0 0; overflow: hidden;   }
+.portfolio figure.long {width:100%;}
+.portfolio figure img {width:100%; display: block; position: relative;  }
+.portfolio figure figcaption {display:none; position: absolute; top:0; width:100%; min-height: 100%; background: rgba(55,61,71,.9); color:#fff;  }
+.portfolio figure figcaption div {padding:20%;  }
+.portfolio figure.long figcaption div {padding:10% 20% 20% 20%; text-align: center;  }
+.portfolio figure figcaption h1 {font-weight: 700; text-transform: uppercase; font-size: 150%; }
+.portfolio figure.long figcaption h1 {font-weight: 700; text-transform: uppercase; font-size: 250%; }
+.portfolio figure figcaption h1:after {content: ''; display: block; width: 15%; padding-top: 5px; border-bottom: 3px solid #e14c3b; }
+.portfolio figure.long figcaption h1:after {content: ''; display: block; width: 10%; padding-top: 10px; border-bottom: 3px solid #e14c3b; margin:0 auto; }
+.portfolio figure figcaption ul {margin:0; padding:0; }
+.portfolio figure figcaption li {margin:0; padding:0; list-style-type: none; display: block; padding:5px 0; }
+.portfolio figure i {position: absolute; top:30px; right:25px; opacity: 0; transition:all .2s ease-in-out; height: inherit; z-index: 999; }
+.portfolio figure:hover i {opacity: 1; cursor: pointer; }
+
+.no-svg .si-icon-hamburger, .no-svg .si-icon-hamburger-cross { background: url('../images/plus.png') no-repeat; top:30px; width: 24px; height: 24px; z-index:1;  }
+
+/* ABOUT PANEL
+---------------------------------- */
+.slide-panel-wrap {display:none; background:rgb(55,61,71); position: absolute;  width:100%;  top:0; z-index: 999; height: 500%;  }
+#close-btn {position: absolute; right:40px; top:0; font-size: 310%; font-weight: 100;  color:#fff; z-index: 1; }
+#close-btn:hover {cursor: pointer; }
+
+/* About */
+.about article { position:relative; padding:85px 1.5%; color:#fff; max-width: 600px; width: 90%; margin:0 auto; border-bottom: solid 1px #999;  }
+.about article h1 {font-weight: 600; }
+.about article h1:after {content: ''; display: block; width: 10%; padding-top: 5px; border-bottom: 3px solid #e14c3b; }
+.hl {background: rgba(255,255,255,0.1);}
+.about article h4 {text-transform: uppercase; font-weight: 600; }
+.no-border {border:none !important; }
+.creative-icon, .dev-icon {position: absolute; margin:0 auto; right:0; left:0; top:-50px; width: 90px; height: auto;  }
+
+/* Contact */
+.contact-sec.home article {color:#555; }
+.contact-sec.home article li a i {color:#555; transition:all .3s ease-in-out; }
+.contact-sec.home article li a i:hover {color:#e14c3b; }
+.contact-sec {background: rgba(255,255,255,0.1); }
+.contact-sec article { position:relative; padding:90px 0 120px 0; color:#fff; max-width: 700px; width: 90%; margin:0 auto; text-align: center; }
+.contact-sec article ul {margin:0; padding:0; display: block; text-align: center;  }
+.contact-sec.home h1:before {content: ''; display: block; width: 15%; padding-bottom: 40px !important; border-top: 3px solid #e14c3b; margin:0 auto; }
+.contact-sec article li {margin:0; padding:0; list-style-type: none; display: inline-block; *display: inline; zoom:1; }
+.contact-sec article li a {display: block; font-size: 300%; padding:0 20px;  }
+.contact-sec article li:first-child a {padding-left: 0; } ; .contact-sec article li:last-child a {padding-right: 0; } 
+.contact-sec article li a i {color:rgba(255,255,255,0.3); transition:all .3s ease-in-out; }
+.contact-sec article li a i:hover {color:rgba(255,255,255,1); }
+
+/* Go to top */
+#back-top { display:none; background:#fff; position:fixed; bottom:60px; right:40px; z-index:9999; text-decoration: none; *display:none; /* IE 7 */; border-radius: 200px; text-align: center; padding:9px 19px; width: 12px; height: 31px;  }
+     
+#back-top a {color: #555; font-size: 14px; }     
+#back-top:hover {cursor: pointer;  }
+#back-top:hover a {text-decoration: none; color:#e14c3b;  }
+#back-top span {background:none;
+-webkit-transition: all 2s;
+   -moz-transition: all 2s; 
+        transition: all 2s; }
+        
+        
+/* For IE :( */
+.ie8 .slide-panel-wrap {background:#373d47; }
+.ie8 .contact-sec article li a i {color:#999999; }
+.ie8 .contact-sec article li a i:hover {color:#ffffff; }
+.ie8 .contact-sec {background:#4D525B; }
+.ie8 .hl {background:#4D525B; }
+
+.ie7 .slide-panel-wrap {background:#373d47; }
+.ie7 .contact-sec {background:#4D525B; }
+.ie7 .hl {background:#4D525B; }
+
+
+/* RESPONSIVE
+---------------------------------- */
+@media screen and (max-width:650px) {
+	.portfolio figure figcaption div {padding:20% 5% 5% 5% !important; }
+	.portfolio figure.long figcaption div {padding:2% !important; }
+	.portfolio figure figcaption h1, .portfolio figure.long figcaption h1  {font-size: 95% !important; }
+	.portfolio figure figcaption ul li {font-size:85%; }
+	
+	.contact-sec article li a {font-size: 200%; }
+	
+	}
+
+@media screen and (max-width:768px) {
+	
+	header section {margin-top:80px; margin-bottom: 0;   }
+	header section h1 {font-size: 150%; }
+	header section h2 {font-size: 130%;  margin:0 auto !important; }
+	.portfolio .row figure {display: block; width: auto; margin: -10px 0 0 0;   }
+	#close-btn { right:20px; top:20px; font-size: 300%; }
+	.slide-panel-wrap {height: 600%;  }
+	#back-top { bottom:60px; right:20px; width: 15px; height: 35px; }
+}
+
+@media screen and (max-width:1280px) {
+	.portfolio figure figcaption div, .portfolio figure.long figcaption div {padding:15%; }
+	.portfolio figure figcaption h1, .portfolio figure.long figcaption h1 {font-size: 110%; }
+
+
+}
