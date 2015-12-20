@@ -123,14 +123,13 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 	.portfolio figure.long figcaption div {padding:2% !important; }
 	.portfolio figure figcaption h1, .portfolio figure.long figcaption h1  {font-size: 95% !important; }
 	.portfolio figure figcaption ul li {font-size:85%; }
-	
 	.contact-sec article li a {font-size: 200%; }
 	
 	}
 
 @media screen and (max-width:768px) {
 	
-	header section {margin-top:80px; }
+	header section {margin:80px 0 -20px 0; }
 	header section h1 {font-size: 150%; }
 	header section h2 {font-size: 130%;  margin:0 auto !important; }
 	.portfolio .row figure {display: block; width: auto; margin: 0 0 7px 0 !important; }
