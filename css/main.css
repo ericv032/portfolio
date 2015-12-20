@@ -133,7 +133,7 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 	header section {margin-top:80px; }
 	header section h1 {font-size: 150%; }
 	header section h2 {font-size: 130%;  margin:0 auto !important; }
-	.portfolio .row figure {display: block; width: auto; margin: 0; }
+	.portfolio .row figure {display: block; width: auto; margin: 0 0 5px 0 !important; }
 	#close-btn { right:20px; top:20px; font-size: 300%; }
 	.slide-panel-wrap {height: 600%;  }
 	#back-top { bottom:60px; right:20px; width: 15px; height: 35px; }
