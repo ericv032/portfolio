@@ -65,7 +65,7 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 
 /* ABOUT PANEL
 ---------------------------------- */
-.slide-panel-wrap {display:none; background:rgb(55,61,71); position: absolute;  width:100%;  top:0; z-index: 999; height: 500%;  }
+.slide-panel-wrap {display:none; background:rgb(55,61,71); position: absolute;  width:100%;  top:0; z-index: 999; height: 700%;  }
 #close-btn {position: absolute; right:40px; top:0; font-size: 310%; font-weight: 100;  color:#fff; z-index: 1; }
 #close-btn:hover {cursor: pointer; }
 
@@ -91,8 +91,6 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 .contact-sec article li:first-child a {padding-left: 0; } ; .contact-sec article li:last-child a {padding-right: 0; } 
 .contact-sec article li a i {color:rgba(255,255,255,0.3); transition:all .3s ease-in-out; }
 .contact-sec article li a i:hover {color:rgba(255,255,255,1); }
-
-.tglTwo.gray {color:#666666; }
 
 /* Go to top */
 #back-top { display:none; background:#fff; position:fixed; bottom:60px; right:40px; z-index:9999; text-decoration: none; *display:none; /* IE 7 */; border-radius: 200px; text-align: center; padding:9px 19px; width: 12px; height: 31px;  }
