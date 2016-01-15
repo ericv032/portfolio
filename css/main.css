@@ -2,7 +2,7 @@
 html, body, address, footer, blockquote, dl, pre,  button, del, ins, map, object, abbr, acronym, b, bdo, big, cite, code, dfn, i, kbd, q, samp, small, sub, sup, tt, var, legend, fieldset  { font-family: 'Open Sans', sans-serif; color:#444; line-height:1.8; font-weight : 400; font-size:100%; margin:0; padding:0; -webkit-font-smoothing: antialiased;  height: 100%; }
 
 a {color:#4fbfd7; text-decoration:none; cursor:pointer; transition:all .1s ease-in-out; }
-a:hover {text-decoration:none; color:#ed1c24 }
+a:hover {text-decoration:none; color:#e14c3b }
 a:visited, a:focus {text-decoration:none; outline:0 none; }
 a img {border:0 none; } /* IE */
 
@@ -65,7 +65,7 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 
 /* ABOUT PANEL
 ---------------------------------- */
-.slide-panel-wrap {display:none; background:rgb(55,61,71); position: absolute;  width:100%;  top:0; z-index: 999; height: 700%;  }
+.slide-panel-wrap {display:none; background:rgb(55,61,71); position: absolute;  width:100%;  top:0; z-index: 999; height: 600%;  }
 #close-btn {position: absolute; right:40px; top:0; font-size: 310%; font-weight: 100;  color:#fff; z-index: 1; }
 #close-btn:hover {cursor: pointer; }
 
