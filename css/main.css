@@ -123,7 +123,7 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 	.portfolio figure.long figcaption div {padding:2% !important; }
 	.portfolio figure figcaption h1, .portfolio figure.long figcaption h1  {font-size: 95% !important; }
 	.portfolio figure figcaption ul li {font-size:85%; }
-	#close-btn { left:20px; top:20px; font-size: 85% !important; }
+	#close-btn { left:20px; top:20px; font-size: 200% !important; }
 	.contact-sec article li a {font-size: 200%; }
 	
 	}
