@@ -123,6 +123,7 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 	.portfolio figure.long figcaption div {padding:2% !important; }
 	.portfolio figure figcaption h1, .portfolio figure.long figcaption h1  {font-size: 95% !important; }
 	.portfolio figure figcaption ul li {font-size:85%; }
+	#close-btn { left:20px; top:20px; font-size: 85% !important; }
 	.contact-sec article li a {font-size: 200%; }
 	
 	}
@@ -133,7 +134,7 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 	header section h1 {font-size: 150%; }
 	header section h2 {font-size: 125%;  margin:0 auto !important; }
 	.portfolio .row figure {display: block; width: auto; margin: 0 0 7px 0 !important; }
-	#close-btn { right:20px; top:20px; font-size: 300%; }
+	#close-btn { left:20px; top:20px; font-size: 200%; }
 	.slide-panel-wrap {height: 600%;  }
 	#back-top { bottom:60px; right:20px; width: 15px; height: 35px; }
 }
