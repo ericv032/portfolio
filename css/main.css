@@ -125,6 +125,7 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 	.portfolio figure figcaption ul li {font-size:85%; }
 	#close-btn { left:20px; top:20px; font-size: 200% !important; }
 	.contact-sec article li a {font-size: 200%; }
+	.about article { padding:50px 1.5%; }
 	
 	}
 
