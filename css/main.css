@@ -135,7 +135,7 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 	header section h1 {font-size: 150%; }
 	header section h2 {font-size: 125%;  margin:0 auto !important; }
 	.portfolio .row figure {display: block; width: auto; margin: 0 0 7px 0 !important; }
-	#close-btn { left:20px; top:20px; font-size: 200%; }
+	#close-btn { left:20px; top:5px; font-size: 200%; }
 	.slide-panel-wrap {height: 700%;  }
 	#back-top { bottom:60px; right:20px; width: 15px; height: 35px; }
 
