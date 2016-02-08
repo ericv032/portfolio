@@ -1,15 +1,3 @@
-	$(function() {
-	
-	$('#close-btn').click(function() {
-		
-		$( '.slide-panel-wrap' ).fadeOut('fast');
-
-
-		
-	});
-	
-	
-});
 
 // Nav Toggle
 
