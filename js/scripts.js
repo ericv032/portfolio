@@ -1,25 +1,15 @@
-(function() {
+	$(function() {
+	
+	$('#close-btn').click(function() {
+		
+		$( '.slide-panel-wrap' ).fadeOut('fast');
 
-    var introText = $(".introText");
-    var introIndex = -1;
-    
-    function showNextIntroText() {
 
-        ++introIndex;
-
-        introText.eq(introIndex % introText.length)
-
-            .fadeIn(1000)
-
-            .delay(1000)
-
-            .fadeOut(1000, showNextIntroText);
-    }
-    
-    showNextIntroText();
-    
-})();
-
+		
+	});
+	
+	
+});
 
 // Nav Toggle
 
@@ -168,21 +158,6 @@
 	
 	});   
 		
-	
-	
-	$(function() {
-	
-	$('#close-btn').click(function() {
-		
-		$( '.slide-panel-wrap' ).fadeOut('fast');
-
-
-		
-	});
-	
-	
-	
-});
 	
 	
 	// Back to top
