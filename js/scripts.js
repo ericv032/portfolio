@@ -174,7 +174,7 @@
 	
 	$('#close-btn').click(function() {
 		
-		$( '.slide-panel-wrap' ).hide('slide' , { direction: 'down' }, 400  );
+		$( '.slide-panel-wrap' ).fadeOut('fast');
 
 
 		
