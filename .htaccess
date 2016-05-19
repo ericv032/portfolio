@@ -1,6 +1,4 @@
-#+BEGIN_EXAMPLE 
-AuthUserFile /full/path/to/.htpasswd
 AuthType Basic
-AuthName "My Secret Folder"
+AuthName "Password Protected Area"
+AuthUserFile .htpasswd
 Require valid-user
-#+END_EXAMPLE
