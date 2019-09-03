@@ -1,36 +1,36 @@
 /* RESET */
-html, body, address, footer, blockquote, dl, pre,  button, del, ins, map, object, abbr, acronym, b, bdo, big, cite, code, dfn, i, kbd, q, samp, small, sub, sup, tt, var, legend, fieldset  { font-family: 'Open Sans', sans-serif; color:#444; line-height:1.8; font-weight : 400; font-size:100%; margin:0; padding:0; -webkit-font-smoothing: antialiased;  height: 100%; }
+html, body, address, footer, blockquote, dl, pre,  button, del, ins, map, object, abbr, acronym, b, bdo, big, cite, code, dfn, i, kbd, q, samp, small, sub, sup, tt, var, legend, fieldset  { font-family: 'Open Sans', sans-serif; color:#444; line-height:1.8; font-weight : 400; font-size:100%; margin:0; padding:0; -webkit-font-smoothing: antialiased;  }
 
-a {color:#4fbfd7; text-decoration:none; cursor:pointer; transition:all .1s ease-in-out; }
+a {color:#26b7d8; text-decoration:none; cursor:pointer; transition:all .1s ease-in-out; }
 a:hover {text-decoration:none; color:#e14c3b }
 a:visited, a:focus {text-decoration:none; outline:0 none; }
 a img {border:0 none; } /* IE */
 
-h1 {margin:0; font-size: 230%; font-weight: 300; }
-h2 {margin:0; font-size: 170%; font-weight: 300; }
-h3 {margin:0; font-size: 130%; font-weight: 300; }
-h4 {margin:0; font-size: 110%; font-weight: 300; }
+h1 {margin:0; font-size: 230%; font-weight: 400; }
+h2 {margin:0; font-size: 170%; font-weight: 400; }
+h3 {margin:0; font-size: 130%; font-weight: 400; }
+h4 {margin:0; font-size: 110%; font-weight: 400; }
 
 /* HEADER
 ---------------------------------- */
-header section {width: 90%; margin:150px auto 80px auto; text-align: center; padding-bottom: 80px; }
-header section h1 {font-weight: 600; text-transform: uppercase; font-size: 200%; color:#444;  }
-header section h1 span {font-size: 54%; font-weight: 300; display: block; }
-header section img {max-width: 115px; height: auto; 
+header section {width: 90%; margin:50px auto 80px auto; text-align: center; padding-bottom: 80px;}
+header section h1 {font-weight: 700; text-transform: uppercase; font-size: 200%; color:#444;  }
+header section h1 span {font-size: 55%; font-weight: 400; display: block; color: #26b7d8; }
+header section img {max-width: 120px; height: auto; border: solid 2px #26b7d8;  
 	
-	-webkit-border-radius: 115px;
-	   -moz-border-radius: 115px;
-	        border-radius: 115px;
+	-webkit-border-radius: 500px;
+	   -moz-border-radius: 500px;
+	        border-radius: 500px;
 	
 }
 
 /* Nav */
 header .icon-menu { color:#e14c3b; position:absolute; top:20px; left:24px; font-size: 175%; z-index: 888;  height: inherit; }
 header .icon-menu:hover {cursor: pointer; }
-header nav { display:none; width: 50%; z-index: 888; position: absolute; top:23px; left:70px;  }
+header nav { z-index: 888; padding: 20px 20px;  border-top: solid 3px #26b7d8 }
 header nav ul {margin:0; padding:0; }
-header nav li {margin:0; padding:0 15px; list-style-type: none; display:inline-block; *display: inline;}
-header nav li a i {font-size:150%; color:#555; transition:all .2s ease-in-out; } 
+header nav li {margin:0; padding:0 15px; font-weight: 600; list-style-type: none; display:inline-block; *display: inline;}
+header nav li a i { color:#555; transition:all .2s ease-in-out; } 
 header nav li a i:hover {color:#e14c3b; }
 header article {max-width: 655px; margin:0 auto; text-align: left; }
 
@@ -40,7 +40,7 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 
 /* INTRO
 ---------------------------------- */
-.intro {text-align: center; margin: 10% auto 150px auto;  width: 90%;  }
+.intro {text-align: center; margin: 0 auto 150px auto;  width: 90%;  }
 .intro h1 {font-size: 180%; font-weight: 400; }
 
 /* PORTFOLIO
@@ -80,20 +80,22 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 
 /* Contact */
 .contact-sec.home article {color:#555; }
-.contact-sec.home article li a i {color:#555; transition:all .3s ease-in-out; }
+.contact-sec.home article li a i {color:#26b7d8; transition:all .3s ease-in-out; }
 .contact-sec.home article li a i:hover {color:#e14c3b; }
 .contact-sec {background: rgba(255,255,255,0.1); }
 .contact-sec article { position:relative; padding:90px 0 120px 0; color:#fff; max-width: 700px; width: 90%; margin:0 auto; text-align: center; }
 .contact-sec article ul {margin:0; padding:0; display: block; text-align: center;  }
-.contact-sec.home h1:before {content: ''; display: block; width: 15%; padding-bottom: 40px !important; border-top: 3px solid #e14c3b; margin:0 auto; }
+.contact-sec.home h1:before {content: ''; display: block; width: 15%; padding-bottom: 40px !important; border-top: 3px solid #26b7d8; margin:0 auto; }
 .contact-sec article li {margin:0; padding:0; list-style-type: none; display: inline-block; *display: inline; zoom:1; }
-.contact-sec article li a {display: block; font-size: 300%; padding:0 20px;  }
+.contact-sec article li a {display: block; font-size: 220%; padding:0 15px;  }
 .contact-sec article li:first-child a {padding-left: 0; } ; .contact-sec article li:last-child a {padding-right: 0; } 
-.contact-sec article li a i {color:rgba(255,255,255,0.3); transition:all .3s ease-in-out; }
+.contact-sec article li a i {color:#26b7d8; transition:all .3s ease-in-out; }
 .contact-sec article li a i:hover {color:rgba(255,255,255,1); }
 
 /* Go to top */
-#back-top { display:none; background:#fff; position:fixed; bottom:60px; right:40px; z-index:9999; text-decoration: none; *display:none; /* IE 7 */; border-radius: 200px; text-align: center; padding:9px 19px; width: 12px; height: 31px;  }
+#back-top { display:none; background:#fff; position:fixed; bottom:60px; right:40px; z-index:9999; text-decoration: none; *display:none; /* IE 7 */; border-radius: 200px; text-align: center; padding:9px 19px; width: 12px; height: 31px; -moz-box-shadow: 0 0 10px rgb(175, 175, 175);
+	-webkit-box-shadow: 0 0 10px rgb(175, 175, 175);
+	box-shadow: 0 0 10px rgb(175, 175, 175);  }
      
 #back-top a {color: #555; font-size: 14px; }     
 #back-top:hover {cursor: pointer;  }
@@ -118,7 +120,9 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 
 /* RESPONSIVE
 ---------------------------------- */
+
 @media screen and (max-width:650px) {
+	header nav ul {display: block; text-align: center;}
 	.portfolio figure figcaption div {padding:20% 5% 5% 5% !important; }
 	.portfolio figure.long figcaption div {padding:2% !important; }
 	.portfolio figure figcaption h1, .portfolio figure.long figcaption h1  {font-size: 95% !important; }
@@ -131,7 +135,7 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 
 @media screen and (max-width:768px) {
 	
-	header section {margin:80px auto -15px auto; }
+	header section {margin:20px auto -15px auto; }
 	header section h1 {font-size: 150%; }
 	header section h2 {font-size: 125%;  margin:0 auto !important; }
 	.portfolio .row figure {display: block; width: auto; margin: 0 0 7px 0 !important; }
