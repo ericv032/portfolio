@@ -21,7 +21,6 @@
 })();
 
 
-
 // Nav Toggle
 
 	$(function() {
@@ -35,7 +34,7 @@
 	});
 	
 	
-
+// Portfolio Toggle
 
 	$(function() {
 		
