@@ -17,63 +17,16 @@
 	  });
 	});
 // Portfolio Toggle
-	$(function() {
-	$( '.tglOne' ).click(function() {
-		$('.one').toggle( 'slide' , { direction: 'right' }, 200  );	
-	  });
-	});
-		$(function() {
-	$( '.tglTwo' ).click(function() {
-		$('.two').toggle( 'slide' , { direction: 'right' }, 200  );
-	  });
-	});
-		$(function() {
-	$( '.tglThree' ).click(function() {		
-	$('.three').toggle( 'slide' , { direction: 'right' }, 200  );	
-	  });
-	});
-
-	$(function() {	
-	$( '.tglFour' ).click(function() {
-		$('.four').toggle( 'slide' , { direction: 'right' }, 200  );
-	  });
-	});
-	$(function() {
-	$( '.tglFive' ).click(function() {
-		$('.five').toggle( 'slide' , { direction: 'right' }, 200  );
-	  });
-	});
-	$(function() {
-	$( '.tglSix' ).click(function() {
-		$('.six').toggle( 'slide' , { direction: 'right' }, 200  );
-	  });
-	});
-	$(function() {
-		$( '.tglSeven' ).click(function() {
-		$('.seven').toggle( 'slide' , { direction: 'right' }, 200  );
-	  });
-	});
-	$(function() {
-		$( '.tglEight' ).click(function() {
-		$('.eight').toggle( 'slide' , { direction: 'right' }, 200  );
-	  });
-	});
-	
-		$(function() {
-	$( '.tglNine' ).click(function() {
-		$('.nine').toggle( 'slide' , { direction: 'right' }, 200  );	
-	  });
-	});
-	
-			$(function() {
-		
-	$( '.tglTen' ).click(function() {
-		
-		$('.ten').toggle( 'slide' , { direction: 'right' }, 200  );
-			
-	  });
-  
-	});
+$("i").click(function(e) {
+	e.preventDefault();
+	var $figcaption = $(this).next('figcaption');
+	$("figcaption").not($figcaption).hide();
+	  if ($figcaption.is(":visible")) {
+		  $figcaption.hide()
+	  }  else {
+		 $figcaption.fadeIn('fast');
+	  }
+  });
 // Slide-in panel Toggle
 	$(function() {		
 	$( '#open-panel, #open-panel1' ).click(function() {
