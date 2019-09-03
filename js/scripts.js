@@ -21,17 +21,6 @@
 })();
 
 
-$("i").click(function(e) {
-	e.preventDefault();
-	var $div = $(this).next('.row div');
-	$(".row div").not($div).hide();
-	  if ($div.is(":visible")) {
-		  $div.hide()
-	  }  else {
-		 $div.fadeIn('slide' , { direction: 'left' }, 400  );
-	  }
-  });
-
 
 // Nav Toggle
 

@@ -46,7 +46,7 @@ a {
   cursor: pointer;
   transition: all .1s ease-in-out;
 }
-
+.row div {display:none; }
 a:hover {
   text-decoration: none;
   color: #e14c3b
