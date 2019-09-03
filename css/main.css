@@ -15,7 +15,7 @@ h4 {margin:0; font-size: 110%; font-weight: 400; }
 ---------------------------------- */
 header section {width: 90%; margin:50px auto 80px auto; text-align: center; padding-bottom: 80px;}
 header section h1 {font-weight: 700; text-transform: uppercase; font-size: 200%; color:#444;  }
-header section h1 span {font-size: 55%; font-weight: 400; display: block; color: #26b7d8; }
+header section h1 span {font-size: 54%; font-weight: 400; display: block; color: #444; }
 header section img {max-width: 120px; height: auto; border: solid 2px #26b7d8;  
 	
 	-webkit-border-radius: 500px;
@@ -27,7 +27,7 @@ header section img {max-width: 120px; height: auto; border: solid 2px #26b7d8;
 /* Nav */
 header .icon-menu { color:#e14c3b; position:absolute; top:20px; left:24px; font-size: 175%; z-index: 888;  height: inherit; }
 header .icon-menu:hover {cursor: pointer; }
-header nav { z-index: 888; padding: 20px 20px;  border-top: solid 3px #26b7d8 }
+header nav { z-index: 888; padding: 20px 20px;  border-top: solid 2px #26b7d8 }
 header nav ul {margin:0; padding:0; }
 header nav li {margin:0; padding:0 15px; font-weight: 600; list-style-type: none; display:inline-block; *display: inline;}
 header nav li a i { color:#555; transition:all .2s ease-in-out; } 
@@ -51,11 +51,11 @@ header article {max-width: 655px; margin:0 auto; text-align: left; }
 .portfolio figure img {width:100%; display: block; position: relative;  }
 .portfolio figure figcaption {display:none; position: absolute; top:0; width:100%; min-height: 100%; background: rgba(55,61,71,.9); color:#fff;  }
 .portfolio figure figcaption div {padding:20%;  }
-.portfolio figure.long figcaption div {padding:10% 20% 20% 20%; text-align: center;  }
+.portfolio figure.long figcaption span {padding:10% 20% 20% 20%; text-align: center;  }
 .portfolio figure figcaption h1 {font-weight: 700; text-transform: uppercase; font-size: 150%; }
 .portfolio figure.long figcaption h1 {font-weight: 700; text-transform: uppercase; font-size: 250%; }
-.portfolio figure figcaption h1:after {content: ''; display: block; width: 15%; padding-top: 5px; border-bottom: 3px solid #e14c3b; }
-.portfolio figure.long figcaption h1:after {content: ''; display: block; width: 10%; padding-top: 10px; border-bottom: 3px solid #e14c3b; margin:0 auto; }
+.portfolio figure figcaption h1:after {content: ''; display: block; width: 15%; padding-top: 5px; border-bottom: 3px solid #26b7d8; }
+.portfolio figure.long figcaption h1:after {content: ''; display: block; width: 10%; padding-top: 10px; border-bottom: 3px solid #26b7d8; margin:0 auto; }
 .portfolio figure figcaption ul {margin:0; padding:0; }
 .portfolio figure figcaption li {margin:0; padding:0; list-style-type: none; display: block; padding:5px 0; }
 .portfolio figure i {position: absolute; top:30px; right:25px; opacity: 0; transition:all .2s ease-in-out; height: inherit; z-index: 999; }
