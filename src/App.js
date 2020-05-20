@@ -20,7 +20,7 @@ class App extends Component {
             descriptor1="UI, Logo Design: Adobe XD"
             descriptor2="Development: HTML5, CSS3, React"
          >
-         <Button value="Design" className="btn-medium-blue"/>
+          <Button value="Design" className="btn-medium-blue"/>
           <Button value="Code" className="btn-medium-blue"/>
          </CardLeft>
 
@@ -40,7 +40,7 @@ class App extends Component {
             descriptor1="UI Design: Sketch"
             descriptor2="Development: HTML5, CSS3, JavaScript"
          >
-         <Button value="Design" className="btn-medium-blue"/>
+          <Button value="Design" className="btn-medium-blue"/>
           <Button value="Code" className="btn-medium-blue"/>
          </CardLeft>
 
@@ -51,7 +51,7 @@ class App extends Component {
             descriptor1="UI Design: Adobe XD"
             descriptor2="Development: HTML5, CSS3, React"
          >
-         <Button value="Design" className="btn-medium-blue"/>
+          <Button value="Design" className="btn-medium-blue"/>
           <Button value="Code" className="btn-medium-blue"/>
          </CardRight>
 

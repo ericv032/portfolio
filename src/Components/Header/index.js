@@ -7,10 +7,10 @@ class Header extends Component {
         return(
 
             <header>
-                <i><img className="mobile-btn" src={require('../../../public/images/mobile-nav-btn.svg')} /></i>
+                <i><img className="mobile-btn" src={require('../../../public/images/mobile-nav-btn.svg')} alt="Mobile nav button" /></i>
                 <div>
                 <figure>
-                <img className="logo" src={require('../../../public/images/ev-logo.svg')} />
+                <img className="logo" src={require('../../../public/images/ev-logo.svg')} alt="Logo" />
                 </figure>
                 </div>
                 <div>
