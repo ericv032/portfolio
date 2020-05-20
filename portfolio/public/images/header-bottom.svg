@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="658px" viewBox="0 0 1440 658" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---Desktop" fill="#FFFFFF">
+            <g id="Header_Desktop">
+                <path d="M0,0 L1440,0 L1440,630.226233 C960,648.742078 720,658 720,658 C720,658 480,648.742078 0,630.226233 L0,0 Z" id="Rectangle"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,41 @@
+.btn-large-blue {
+    background: transparent;
+    padding: 15px 40px;
+    border: solid 1px #355ABB;
+    border-radius: 500px;
+    color: #355ABB;
+    font-size: 110%;
+    transition: all .2s ease-in-out;
+}
+
+.btn-medium-blue:hover {
+    background: #355ABB;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-medium-blue {
+    background: transparent;
+    margin-right: 20px;
+    padding: 13px 32px;
+    border: solid 1px #355ABB;
+    border-radius: 500px;
+    color: #355ABB;
+    font-size: 95%;
+    transition: all .2s ease-in-out;
+}
+
+.btn-large-blue:hover {
+    background: #355ABB;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .btn-large-blue {
+        padding: 12px 25px;
+        color: #355ABB;
+        font-size: 100%;
+    }
+    
+}

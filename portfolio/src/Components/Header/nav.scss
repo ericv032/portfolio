@@ -1,0 +1,23 @@
+header nav {
+    position: absolute;
+    top:50px;
+    right: 3%;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+header nav li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 95%;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 650px) {
+    nav {display: none}
+}

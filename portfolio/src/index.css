@@ -1,0 +1,143 @@
+@import '../src/Components/Header/header.scss';
+@import '../src/Components/Header/nav.scss';
+@import '../src/Components/Header/buttons.scss';
+@import '../src/Components/cards.scss';
+
+/* RESET */
+html,
+body,
+address,
+footer,
+blockquote,
+dl,
+pre,
+button,
+del,
+ins,
+map,
+object,
+abbr,
+acronym,
+b,
+bdo,
+big,
+cite,
+code,
+dfn,
+i,
+kbd,
+q,
+samp,
+small,
+sub,
+sup,
+tt,
+var,
+legend,
+fieldset {
+  font-family: 'Poppins', sans-serif;
+  color: #050416;
+  line-height: 100%;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #E1E6F5;
+}
+a {
+  color: #050416;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #355ABB;
+}
+
+a:visited,
+a:focus {
+  text-decoration: none;
+  outline: 0 none;
+}
+
+a img {
+  border: 0 none;
+}
+
+/* IE */
+
+h1 {
+  margin: 0;
+  font-size: 250%;
+  line-height: 130%;
+  font-weight: 700;
+}
+
+h2 {
+  margin: 0;
+  font-size: 210%;
+  font-weight: 700;
+}
+
+h3 {
+  margin: 0;
+  font-size: 130%;
+  font-weight: 700;
+}
+
+h4 {
+  margin: 0;
+  font-size: 110%;
+  font-weight: 700;
+}
+
+/* Containers */
+
+.main-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  overflow: auto;
+  padding:80px 20px;
+}
+
+@media screen and (max-width: 750px) {
+  h1 {
+    margin: 0;
+    font-size: 120%;
+    line-height: 130%;
+    font-weight: 700;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 100%;
+    font-weight: 700;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 100%;
+    font-weight: 700;
+  }
+  
+  h4 {
+    margin: 0;
+    font-size: 100%;
+    font-weight: 700;
+  }
+  .main-container {
+    padding:50px 20px;
+  }
+  
+
+
+}
