@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import './Components/Header/header.scss';
 import Header from './Components/Header';
 import MainContainer from './Components/MainContainer';
 import CardRight from './Components/CardRight';
 import CardLeft from './Components/CardLeft';
 import Button from './Components/Button';
+import CardFullWidth from './Components/CardFullWidth';
+import Footer from './Components/Footer';
 
 class App extends Component {
   render() {
@@ -55,7 +56,20 @@ class App extends Component {
           <Button value="Code" className="btn-medium-blue"/>
          </CardRight>
 
+         <CardFullWidth
+            imageUri="./images/personal-blog.png"
+            alt="React app"
+            cardHeader="Responsive Blog Website"
+            descriptor1="UI, Logo Design: Adobe XD"
+            descriptor2="Development: HTML5, CSS3, JavaScript"
+         >
+          <Button value="Design" className="btn-medium-blue"/>
+          <Button value="Code" className="btn-medium-blue"/>
+         </CardFullWidth>
+
         </MainContainer>
+
+        <Footer />
       </div>
     
     );
