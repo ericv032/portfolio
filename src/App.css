@@ -3,6 +3,7 @@
 @import '../src/Styles/buttons.scss';
 @import '../src/Styles/cards.scss';
 @import '../src/Styles/footer.scss';
+@import '../src/Styles/animations.scss';
 
 .App {
   text-align: center;

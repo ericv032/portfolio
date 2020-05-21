@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
-import Button from '../Button';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
     render() {
@@ -10,19 +10,15 @@ class Header extends Component {
                 <i><img className="mobile-btn" src={require('../../../public/images/mobile-nav-btn.svg')} alt="Mobile nav button" /></i>
                 <div>
                 <figure>
+                <Link to="/">
                 <img className="logo" src={require('../../../public/images/ev-logo.svg')} alt="Logo" />
+                </Link>
                 </figure>
                 </div>
                 <div>
                     <Nav />
                 </div>
-                <section>
-                    <article>
-                        <h1>Hey there! I’m Eric Vazquez</h1>
-                        <p>I design & develop modern web based user interfaces</p>
-                         <Button value="About Me" className="btn-large-blue"/>
-                    </article>
-                </section>
+        
             </header>
                 
         );
