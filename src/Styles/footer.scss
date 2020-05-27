@@ -1,5 +1,5 @@
 footer {
-    background: white;
+    background: #FBFCFF;
     text-align: center;
 }
 footer ul {
@@ -32,6 +32,9 @@ footer nav li {
     font-weight: 600;
     font-size: 95%;
     display: inline-block;
+}
+footer nav li a {
+    color: #1B0CA5;
 }
 
 @media screen and (max-width: 750px) {

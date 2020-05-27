@@ -1,15 +1,17 @@
+/* Buttons - Blue */
+
 .btn-large-blue {
     background: transparent;
     padding: 15px 40px;
-    border: solid 1px #355ABB;
+    border: solid 1px #1B0CA5;
     border-radius: 500px;
-    color: #355ABB;
+    color: #1B0CA5;
     font-size: 110%;
     transition: all .2s ease-in-out;
 }
 
 .btn-medium-blue:hover {
-    background: #355ABB;
+    background: #1B0CA5;
     color: white;
     cursor: pointer;
 }
@@ -18,23 +20,59 @@
     background: transparent;
     margin-right: 20px;
     padding: 10px 25px;
-    border: solid 1px #355ABB;
+    border: solid 1px #1B0CA5;
     border-radius: 500px;
-    color: #355ABB;
+    color: #1B0CA5;
     font-size: 95%;
     transition: all .2s ease-in-out;
 }
 
 .btn-large-blue:hover {
-    background: #355ABB;
+    background: #1B0CA5;
     color: white;
     cursor: pointer;
 }
 
+/* Buttons - White */
+
+.btn-large-white {
+    background: transparent;
+    padding: 15px 40px;
+    border: solid 1px #1B0CA5;
+    border-radius: 500px;
+    color: #1B0CA5;
+    font-size: 110%;
+    transition: all .2s ease-in-out;
+}
+
+.btn-medium-white:hover {
+    background: white;;
+    color:#1B0CA5;
+    cursor: pointer;
+}
+
+.btn-medium-white {
+    background: transparent;
+    margin-right: 20px;
+    padding: 10px 25px;
+    border: solid 1px white;
+    border-radius: 500px;
+    color: white;
+    font-size: 95%;
+    transition: all .2s ease-in-out;
+}
+
+.btn-large-white:hover {
+    background: white;
+    color: #1B0CA5;
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 750px) {
     .btn-large-blue {
         padding: 12px 25px;
-        color: #355ABB;
+        color: #1B0CA5;
         font-size: 100%;
     }
     

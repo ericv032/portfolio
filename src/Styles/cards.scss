@@ -1,7 +1,7 @@
 .row {
     display: grid;
     grid-template-columns: 50% 1fr;
-    background-color: white;
+    background-color:#FBFCFF;
     margin-bottom: 3%;
     border-radius: 20px;
     align-items: center;
@@ -10,7 +10,8 @@
 .row.fw {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: white;
+    background-color: #1b0ca5;
+    background-image: linear-gradient(145deg, #1b0ca5 0%, #355abb 39%, #7d9aea 100%);
     margin-bottom: 3%;
     border-radius: 20px;
     align-items: center;
@@ -45,10 +46,11 @@
     text-align: center;
 }
 .card-text-block h2 {
-    font-size: 170%;
+    font-size: 230%;
     line-height: 120%;
     text-transform: uppercase;
     margin-bottom: 20px;
+    color: #1B0CA5;
 }
 
 .card-text-block p {
@@ -58,6 +60,10 @@
 .card-text-block.fwt p {
     line-height: 200%;
     margin-bottom: 30px;
+    color: white;
+}
+.card-text-block.fwt h2 {
+    color: white;
 }
 .card-text-block p span {
  display: block;

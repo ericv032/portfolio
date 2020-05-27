@@ -73,21 +73,25 @@ a img {
 
 h1 {
   margin: 0;
-  font-size: 300%;
+  font-size: 400%;
   line-height: 130%;
   font-weight: 700;
+  color: #1B0CA5;
+
 }
 
 h2 {
   margin: 0;
   font-size: 210%;
   font-weight: 700;
+  color: #1B0CA5;
 }
 
 h3 {
   margin: 0;
   font-size: 130%;
   font-weight: 700;
+  
 }
 
 h4 {
@@ -108,7 +112,7 @@ h4 {
 @media screen and (max-width: 750px) {
   h1 {
     margin: 0;
-    font-size: 120%;
+    font-size: 160%;
     line-height: 130%;
     font-weight: 700;
   }
