@@ -19,6 +19,19 @@ class Home extends Component {
        </Intro>
         <MainContainer>
 
+        <CardFullWidth
+                    imageUri="./images/personal-blog.png"
+                    alt="React app"
+                    cardHeader="Responsive Blog Website"
+                    descriptor1="UI, Logo Design: Adobe XD"
+                    descriptor2="Development: HTML5, CSS3, JavaScript" 
+                >
+                <Link to={{ pathname: "https://ericv032.github.io/udacity-personal-blog-website/" }} target="_blank"><Button value="Preview" className="btn-medium-white"/>
+                </Link>
+                <Link to={{ pathname: "https://github.com/ericv032/udacity-personal-blog-website/" }} target="_blank"><Button value="Code" className="btn-medium-white"/>
+                </Link>
+                </CardFullWidth>
+
                 <CardLeft
                     imageUri="./images/react-app-slide-views.png"
                     alt="React app"
@@ -38,17 +51,6 @@ class Home extends Component {
                     descriptor2="Repository: Abstract"
                     >
                 </CardRight>
-
-                <CardFullWidth
-                    imageUri="./images/personal-blog.png"
-                    alt="React app"
-                    cardHeader="Responsive Blog Website"
-                    descriptor1="UI, Logo Design: Adobe XD"
-                    descriptor2="Development: HTML5, CSS3, JavaScript"
-                >
-                <Button value="Design" className="btn-medium-white"/>
-                <Button value="Code" className="btn-medium-white"/>
-                </CardFullWidth>
 
                 <CardLeft
                     imageUri="./images/restaurant-reviews-app.png"
