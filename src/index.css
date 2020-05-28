@@ -73,7 +73,7 @@ a img {
 
 h1 {
   margin: 0;
-  font-size: 350%;
+  font-size: 380%;
   line-height: 130%;
   font-weight: 700;
   color: #1B0CA5;
@@ -103,13 +103,14 @@ h4 {
 /* Containers */
 
 .main-container {
-  max-width: 1140px;
+  max-width: 1440px;
   margin: 0 auto;
   overflow: auto;
   padding:60px 20px 40px 20px;
 }
 
 @media screen and (max-width: 750px) {
+  
   h1 {
     margin: 0;
     font-size: 160%;

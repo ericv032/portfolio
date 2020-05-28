@@ -9,11 +9,6 @@ class Header extends Component {
             <header>
                 <i><img className="mobile-btn" src={require('../../../public/images/mobile-nav-btn.svg')} alt="Mobile nav button" /></i>
                 <div>
-                <figure>
-                <Link to="/">
-                <img className="logo" src={require('../../../public/images/eric-pic.png')} alt="Logo" />
-                </Link>
-                </figure>
                 </div>
                 <div>
                     <Nav />

@@ -33,7 +33,7 @@ class Home extends Component {
                 </CardFullWidth>
 
                 <CardLeft
-                    imageUri="./images/react-app-slide-views.png"
+                    imageUri=""
                     alt="React app"
                     cardHeader="Onboarding Mobile Rotator"
                     descriptor1="UI, Logo Design: Adobe XD"
@@ -66,7 +66,7 @@ class Home extends Component {
                 <CardRight
                     imageUri="./images/github-profile-app.png"
                     alt="React app"
-                    cardHeader="Github Profile App"
+                    cardHeader="GitHub Profile App"
                     descriptor1="UI Design: Adobe XD"
                     descriptor2="Development: HTML5, CSS3, React"
                 >

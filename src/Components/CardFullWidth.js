@@ -12,7 +12,7 @@ const CardFW = (props) => (
             {props.children}
 
     </div>
-    <div className="card-header-image">
+    <div className="card-header-image-fw">
         <figure className="fw-img">
         <img src={props.imageUri} alt={props.alt} />
         </figure>

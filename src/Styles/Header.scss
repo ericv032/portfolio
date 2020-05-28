@@ -1,12 +1,7 @@
 header {
- background: #FBFCFF;
+ background: rgb(224, 229, 247);
  position: relative;
- height: 80px;
-}
-header .logo {
-   display: none;
-   margin: 10px 0 0 3%;
-   transition: all .2s ease-in-out;
+ height: 70px;
 }
 @media screen and (min-width: 751px) {
        .mobile-btn {
