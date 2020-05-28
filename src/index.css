@@ -45,7 +45,7 @@ fieldset {
 }
 
 body {
-  background: #E1E6F5;
+  background: rgb(236, 240, 252);
 }
 a {
   color: #050416;
@@ -73,7 +73,7 @@ a img {
 
 h1 {
   margin: 0;
-  font-size: 400%;
+  font-size: 350%;
   line-height: 130%;
   font-weight: 700;
   color: #1B0CA5;

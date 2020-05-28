@@ -13,7 +13,7 @@ class Home extends Component {
             <div>
        <Intro
             introH1="Hey there! I’m Eric"
-            introP="I'm a UI Designer and Front End Developer interested in creating and developing functional web user experiences for a diverse range of people."
+            introP="I'm a UI Designer and Front End Developer interested in creating and developing web user experiences for a diverse range of people."
        >
            <Link to="/about"><Button value="About Me" className="btn-large-blue animated fadeInUp" /></Link>
        </Intro>

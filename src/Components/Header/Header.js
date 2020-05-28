@@ -11,7 +11,7 @@ class Header extends Component {
                 <div>
                 <figure>
                 <Link to="/">
-                <img className="logo" src={require('../../../public/images/ev-logo.svg')} alt="Logo" />
+                <img className="logo" src={require('../../../public/images/eric-pic.png')} alt="Logo" />
                 </Link>
                 </figure>
                 </div>

@@ -1,9 +1,10 @@
-@import '../src/Styles/Header.scss';
+@import '../src/Styles/header.scss';
 @import '../src/Styles/nav.scss';
 @import '../src/Styles/buttons.scss';
 @import '../src/Styles/cards.scss';
 @import '../src/Styles/footer.scss';
 @import '../src/Styles/animations.scss';
+@import '../src/Styles/intro.scss';
 
 .App {
   text-align: center;
