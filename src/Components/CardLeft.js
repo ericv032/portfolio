@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardLeft = (props) => (
     <div className="row">
-    <div className="card-header-image">
+    <div className="card-header-image-left">
         <figure>
         <img className="img-left" src={props.imageUri} alt={props.alt} />
         </figure>

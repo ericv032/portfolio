@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Nav from './Nav';
-import { Link } from 'react-router-dom';
 
 class Header extends Component {
     render() {

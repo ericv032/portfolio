@@ -12,7 +12,7 @@ const CardRight = (props) => (
             {props.children}
 
     </div>
-    <div className="card-header-image">
+    <div className="card-header-image-right">
         <figure>
         <img className="img-right" src={props.imageUri} alt={props.alt} />
         </figure>

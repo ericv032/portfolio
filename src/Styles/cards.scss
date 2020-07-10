@@ -17,15 +17,21 @@
     align-items: center;
     justify-content: center;
 }
-.card-header-image {
+.card-header-image-left {
     background-color: #1b0ca5;
     background-image: linear-gradient(145deg, #1b0ca5 0%, #355abb 39%, #7d9aea 100%);
-    min-height: 750px;
+    min-height: 700px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-
 }
-.card-header-image img, .card-header-image-fw img  {
+.card-header-image-right {
+    background-color: #1b0ca5;
+    background-image: linear-gradient(145deg, #1b0ca5 0%, #355abb 39%, #7d9aea 100%);
+    min-height: 700px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.card-header-image-left img, .card-header-image-right img, .card-header-image-fw img  {
     width: 100%;
     margin-bottom: -4px;
 }
@@ -35,7 +41,7 @@
     text-align: center;
 }
 .fw-img img {
-    width: 85%;
+    width: 95%;
 }
 .img-right {
     border-top-right-radius: 20px;
