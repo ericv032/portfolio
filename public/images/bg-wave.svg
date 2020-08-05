@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2500px" height="310px" viewBox="0 0 2500 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-wave</title>
+    <g id="bg-wave" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#E7EFF8" x="0" y="0" width="2500" height="310"></rect>
+        <path d="M0,37.1182882 C255.217426,-12.3727627 528.271444,-12.3727627 819.162054,37.1182882 C1255.49797,111.354865 1595.83227,168.147977 1887.82315,160.820337 C2082.48374,155.935244 2286.54269,116.843127 2500,43.5439849 L2495.3125,2340.16435 L68.4627677,2340.16435 L0,37.1182882 Z" id="Path-2" fill="#FFFFFF"></path>
+    </g>
+</svg>

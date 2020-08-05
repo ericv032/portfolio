@@ -1,5 +1,4 @@
 footer {
-    background: rgb(224, 229, 247);
     text-align: center;
 }
 footer ul {
@@ -12,11 +11,10 @@ footer li {
     list-style-type: none;
     display: inline-block;
 }
-
 footer nav {
     display: block;
     margin-bottom: 30px;
-    padding-top: 30px;
+    padding-top: 0;
 }
 footer nav ul {
     margin: 0;

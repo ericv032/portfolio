@@ -10,23 +10,23 @@
 .row.fw {
     display: grid;
     grid-template-columns: 1fr;
-    background-color: #1b0ca5;
-    background-image: linear-gradient(145deg, #1b0ca5 0%, #355abb 39%, #7d9aea 100%);
+    background-color: #0648a1;
+    background-image: linear-gradient(135deg, #0648a1 0%, #569ee5 99%);
     margin-bottom: 3%;
     border-radius: 20px;
     align-items: center;
     justify-content: center;
 }
 .card-header-image-left {
-    background-color: #1b0ca5;
-    background-image: linear-gradient(145deg, #1b0ca5 0%, #355abb 39%, #7d9aea 100%);
+    background-color: #0648a1;
+    background-image: linear-gradient(135deg, #0648a1 0%, #569ee5 99%);
     min-height: 700px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 .card-header-image-right {
-    background-color: #1b0ca5;
-    background-image: linear-gradient(145deg, #1b0ca5 0%, #355abb 39%, #7d9aea 100%);
+    background-color: #0648a1;
+    background-image: linear-gradient(135deg, #0648a1 0%, #569ee5 99%);
     min-height: 700px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -52,18 +52,18 @@
     border-bottom-left-radius: 20px;
 }
 .card-text-block {
-    padding: 10%;
+    padding: 13%;
  
 }
 .card-text-block.fwt {
-    padding: 6%;
+    padding: 8%;
     text-align: center;
 }
 .card-text-block h2 {
     font-size: 260%;
     line-height: 120%;
     margin-bottom: 20px;
-    color: #1B0CA5;
+    color: #0648a1;
 }
 
 .card-text-block p {
@@ -98,19 +98,24 @@
           order: -1;
           flex-direction: column;
           width: 100%;
+          border-top-right-radius: 20px;
+          border-top-left-radius: 20px;
+          border-bottom-right-radius: 0;
+          border-bottom-left-radius: 0;
         }
-        .row.fw .card-header-image {
+        .card-header-image-right, .card-header-image-left {
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            width: 100%;
+        }
+    .row.fw .card-header-image {
             display: flex;
             order: 0;
             flex-direction: column;
             width: 100%;
           }
-    .card-header-image img {
-        border-top-right-radius: 20px;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0;
-    }
     .card-text-block {
         width: 90%;
         padding: 7% 0 15%;

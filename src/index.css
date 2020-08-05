@@ -32,7 +32,7 @@ var,
 legend,
 fieldset {
   font-family: 'Poppins', sans-serif;
-  color: #050416;
+  color: rgb(83, 83, 83);
   line-height: 100%;
   font-size: 100%;
   margin: 0;
@@ -45,7 +45,7 @@ fieldset {
 }
 
 body {
-  background: rgb(236, 240, 252);
+  background: #E7EFF8;
 }
 a {
   color: #050416;
@@ -76,7 +76,7 @@ h1 {
   font-size: 380%;
   line-height: 130%;
   font-weight: 700;
-  color: #1B0CA5;
+  color: #0648a1;
 
 }
 
@@ -84,13 +84,14 @@ h2 {
   margin: 0;
   font-size: 210%;
   font-weight: 700;
-  color: #1B0CA5;
+  color: #0648a1;
 }
 
 h3 {
   margin: 0;
   font-size: 130%;
   font-weight: 700;
+  color: #0648a1;
   
 }
 
@@ -98,6 +99,7 @@ h4 {
   margin: 0;
   font-size: 110%;
   font-weight: 700;
+  color: #0648a1;
 }
 
 /* Containers */

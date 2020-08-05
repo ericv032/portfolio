@@ -5,6 +5,7 @@
 @import '../src/Styles/footer.scss';
 @import '../src/Styles/animations.scss';
 @import '../src/Styles/intro.scss';
+@import '../src/Styles/main-container.scss';
 
 .App {
   text-align: center;
